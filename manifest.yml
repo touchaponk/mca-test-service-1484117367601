@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mca-test-service
+  host: mca-test-service
+  disk_quota: 1024M
+  services:
+  - mca-test-service-AdvancedMobileAccess
+  - mca-test-service-imfpush
+  - mca-test-service-cloudantNoSQLDB
